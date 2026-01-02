@@ -1,0 +1,44 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/**/build/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.code-workspace
+
+# Kotlin
+*.class
+*.log
+*.tmp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Android
+local.properties
+*.apk
+*.ap_
+*.aab
+
+# iOS
+*.xcuserstate
+*.xcworkspace
+Pods/
+DerivedData/
+
+# Node
+node_modules/
+
+# Sensitive
+*.keystore
+*.jks
+secrets.properties
